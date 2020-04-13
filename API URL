@@ -1,0 +1,20 @@
+#Create a Savings Account
+http://localhost:8888/api/account/createAccount
+
+#Deposit 100$ to Account
+http://localhost:8888/api/account/depositMoney/555/600
+
+# Withdraw 50$ Money from Account
+http://localhost:8888/api/account/withdrawMoney
+
+#Read Available Balance
+http://localhost:8888/api/account/checkBalance/555
+
+#List last 10 transactions of the Account
+http://localhost:8888/api/account/get10Transaction
+
+#Transfer Money
+http://localhost:8888/api/account/sendmoney
+
+#Get all account details
+http://localhost:8888/api/account/getAllAccounts
