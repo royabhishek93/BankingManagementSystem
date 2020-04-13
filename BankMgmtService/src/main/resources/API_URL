@@ -1,0 +1,36 @@
+#Create a Savings Account
+http://localhost:8888/api/account/createAccount
+{
+  "accountNumber": "555",
+  "fullName": "Halder",
+  "balance": 15000
+}
+
+#Deposit 100$ to Account
+http://localhost:8888/api/account/depositMoney/555/600
+
+# Withdraw 50$ Money from Account
+http://localhost:8888/api/account/withdrawMoney
+{
+  "accountNumber": "111",
+  "amount": "1"
+}
+
+
+#Read Available Balance
+http://localhost:8888/api/account/checkBalance/555
+
+#List last 10 transactions of the Account
+http://localhost:8888/api/account/get10Transaction
+
+#Transfer Money
+http://localhost:8888/api/account/sendmoney
+{
+  "fromAccountNumber": "555",
+  "toAccountNumber": "111",
+  "amount": 300
+}
+
+
+#Get all account details
+http://localhost:8888/api/account/getAllAccounts
