@@ -20,4 +20,4 @@ http://localhost:8888/api/account/sendmoney
 http://localhost:8888/api/account/getAllAccounts
 
 #Angular StackBlitz URL
-https://angular-azjnzv.stackblitz.io
+https://stackblitz.com/edit/angular-azjnzv
